@@ -506,7 +506,7 @@ class EyeController:
                 self.ear_history = []
                 print("Memulai kalibrasi ulang...")
             elif key == ord('r'):
-                # Reset hanya blink detection
+                # Reset hanya blink detection demi github
                 self.baseline_ear = None
                 self.baseline_frames = 0
                 self.ear_history = []
